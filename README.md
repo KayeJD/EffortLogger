@@ -1,4 +1,4 @@
-# EffortLogger
+# EffortLogger (in progress)
 A Software Engineering Project implementing the scrum process and Agile model
 
 ## Project Description
