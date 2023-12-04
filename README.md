@@ -9,3 +9,29 @@ A customer (who shall remain unnamed for confidentiality purposes) has requested
 •	Build on the results the firm has achieved with its use of the EffortLogger application and extend it to support the firm’s desire to be more data driven.  The firm proposes to do this by instituting job levels for every specialization (e.g., Developer 1, Developer 2, and so forth) and aggregating data for each level before making it available, thereby decoupling data from specific individuals.  This aggregated data will be used by future applications to be run at the team and team-of-teams levels while ensuring each team member that the use of personal data cannot be linked to any person.  The new application that the firm wishes to acquire must run on Windows and MacOS laptops and desktop machines and support all the current functions of EffortLogger and as many of the additional functions need by the various above-listed enhancements.
 It is desirable for the user interface to retain many of the current EffortLogger elements so the adoption of the new application will be more rapid by the current workforce than would happen if a totally new concept of operations and user interface were to be implemented.
 The firm has been adamant that the application must be written using Eclipse and the Java programming language with a user interface implemented using JavaFX.  They would prefer the implementation of the user interface using Scene Builder but will accept a manual JavaFX implementation.
+
+# CSE360_Tu37
+Main responsiblities:
+
+  Alma Babbit: SQL database setup, Login functionality, Project creation/setup.
+  
+  Ishan Yelnoorkar: Defect creation/editing, and Logs screen.
+  
+  Zachary Litwin: Effort console, and Effort Editor functionality.
+  
+  Trevor Huss: Planning Poker GUI.
+  
+  Karryl Dumalag: Documentation.
+
+EffortLogger: The EffortLogger_v2 is a remake and improvement over the original EffortLogger Excel Visual Basic Program.
+It is Written in java to allow for greater flexibility and it uses a localhost SQL database for storing log information.
+
+The SQL database contains all of the project definitions, Life Cycle Steps, Efforts, Defects and everything else that was
+previously in the excel document. 
+
+v2 also implements a planning poker system that can be run in the program and automatically updates in the SQL database. 
+
+Requirements to successfully run the appplicaiton:
+SQL Connector, Version Used for Project: 8.2.0
+JavaFX 19 or 21
+JDK 19 or 21 
